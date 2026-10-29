@@ -1,8 +1,0 @@
-build/
-out/
-.vs/
-.vscode/.browse.VC.db
-.vscode/ipch/
-benchmark.csv
-matrix_benchmark.png
-md5_benchmark.png
