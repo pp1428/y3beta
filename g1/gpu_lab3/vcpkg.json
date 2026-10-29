@@ -1,0 +1,7 @@
+{
+  "name": "gpu-lab3-opencl",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "opencl"
+  ]
+}
