@@ -1,0 +1,6 @@
+﻿  CPU.c
+C:\Users\Keyt\Desktop\3lab\CPU\CPU\CPU.c(153,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Keyt\Desktop\3lab\CPU\CPU\CPU.c(202,2): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Keyt\Desktop\3lab\CPU\CPU\CPU.c(210,20): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char (*)[10]"
+C:\Users\Keyt\Desktop\3lab\CPU\CPU\CPU.c(210,20): warning C4024: butofors_func: различные типы для формального и фактического параметров 2
+  CPU.vcxproj -> C:\Users\Keyt\Desktop\3lab\CPU\x64\Debug\CPU.exe

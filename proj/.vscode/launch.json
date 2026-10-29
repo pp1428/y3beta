@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: det_cpu",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cpu/det_cpu${exeExt}",
+      "args": [],
+      "cwd": "${workspaceFolder}/cpu",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build: CPU (det_cpu)"
+    },
+    {
+      "name": "Debug: bruteforce_cpu",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cpu/bruteforce_cpu${exeExt}",
+      "args": [],
+      "cwd": "${workspaceFolder}/cpu",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build: CPU (bruteforce_cpu)"
+    },
+    {
+      "name": "Debug: det_host (GPU, Linux)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/gpu/det_host",
+      "args": [],
+      "cwd": "${workspaceFolder}/gpu",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build: GPU (det_host, OpenCL) - Linux"
+    },
+    {
+      "name": "Debug: bf_host (GPU, Linux)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/gpu/bf_host",
+      "args": [],
+      "cwd": "${workspaceFolder}/gpu",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build: GPU (bf_host, OpenCL) - Linux"
+    }
+  ]
+}

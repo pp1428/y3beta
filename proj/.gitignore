@@ -1,0 +1,8 @@
+*.exe
+*.o
+*.obj
+cpu/det_cpu
+cpu/bruteforce_cpu
+gpu/det_host
+gpu/bf_host
+*.pdb

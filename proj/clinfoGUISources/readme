@@ -1,0 +1,21 @@
+clinfo @2010 Lupescu Grigore
+CPU/GPU OpenCL basic information
+			 
+Command List
+			 
+			 CPU/GPU complete info:
+			 ./clinfo 
+			 
+			 CPU info :
+			 ./clinfo -cstd
+			 ./clinfo -cinfo
+			 ./clinfo -cvendor
+			 ./clinfo -cgflops
+			 ./clinfo -ccores
+			 
+			 GPU info :
+			 ./clinfo -gstd
+			 ./clinfo -ginfo
+			 ./clinfo -gvendor
+			 ./clinfo -ggflops
+			 ./clinfo -gcores
